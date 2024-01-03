@@ -67,50 +67,26 @@ nav ul li a {
 /* FOOTER */
 
 .small1{
-    width: 300px;
-    background-color: #9477ab;
-}
-.small2{
-    width: 320px;
-    background-color: #9477ab;
-}
-.small3{
-    width: 320px;
-    background-color: #9477ab;
-}
-.small4{
-    width: 320px;
-    background-color: #9477ab;
-}
-.small5{
-    width: 325px;
-    background-color: #9477ab;
-}
-.small6{
     width: 350px;
     background-color: #9477ab;
 }
-.small7{
+.small2{
+    width: 355px;
+    background-color: #9477ab;
+}
+.small3{
+    width: 360px;
+    background-color: #9477ab;
+}
+.small4{
+    width: 365px;
+    background-color: #9477ab;
+}
+.small5{
+    width: 370px;
+    background-color: #9477ab;
+}
+.small6{
     width: 375px;
-    background-color: #9477ab;
-}
-.small8{
-    width: 400px;
-    background-color: #9477ab;
-}
-.small9{
-    width: 425px;
-    background-color: #9477ab;
-}
-.small10{
-    width: 450px;
-    background-color: #9477ab;
-}
-.small11{
-    width: 475px;
-    background-color: #9477ab;
-}
-.small12{
-    width: 500px;
     background-color: #9477ab;
 }
