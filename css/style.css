@@ -1,4 +1,4 @@
-/* COLORES */
+/*? COLORES */
 .colores {
     color: #F0E7E5;
     color: #EEDBD8;
@@ -7,48 +7,121 @@
     color: #9C93B5;
 }
 
-/* GENERAL */
+/*? GENERAL */
 * {
     margin: 0px;
     padding: 0px;
 }
 
-/* HEADER */
-.navbar-brand{
+/*! HEADER */
+
+.navbar-brand {
     color: #4c4275;
     padding-right: 20px;
     font-weight: bold;
 }
 
-.navbar-nav{
+.navbar-nav {
     display: flex;
     justify-content: space-around;
 }
 
-/* BODY */
+/*! BODY */
 
 
 
-/* INDEX */
-
-
-
-/* ESPECIAL */
-
-
-
-/* AMAR */
-
-
-
-/* FUTURO */
-
-
-
-/* FOOTER */
-
-
-.hey {
-    height: 200vh;
-    background-color: #4c4275;
+/** INDEX */
+.banner div {
+    height: 95vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.050), rgba(0, 0, 0, 0.200)), url(../img/and04.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
+
+.banner div h1 {
+    background-color: #9c93b566;
+    text-align: center;
+    border-radius: 10px;
+    color: #C6AFC6;
+    padding: 7px 10px 7px 10px;
+    margin-top: 5%;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.banner div p {
+    background-color: #9c93b566;
+    text-align: center;
+    border-radius: 10px;
+    padding: 12px;
+    color: #C6AFC6;
+    margin-top: 5%;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.banner div h2 {
+    background-color: #9c93b566;
+}
+
+
+/** CARTITAS */
+
+
+
+/** RECUERDOS */
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.gal-caja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: #9C93B5;
+}
+
+.gal-caja h2 {
+    color: #EEDBD8;
+    font-size: 27px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.gal-caja div{
+    overflow: hidden;
+    width: 80%;
+    height: 70%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 7px 10px #4c4275c2;
+}
+
+.gal-caja div img {
+    width: 100%;
+}
+
+.gal-caja p {
+    color:#F0E7E5
+}
+
+
+
+/** PLAYLIST */
+
+
+
+/*! FOOTER */
