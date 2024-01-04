@@ -1,3 +1,12 @@
+/* COLORES */
+.colores {
+    color: #F0E7E5;
+    color: #EEDBD8;
+    color: #E8D0D0;
+    color: #C6AFC6;
+    color: #9C93B5;
+}
+
 /* GENERAL */
 * {
     margin: 0px;
@@ -5,43 +14,15 @@
 }
 
 /* HEADER */
-nav {
-    background-color: #070412;
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-
-}
-
-nav ul li {
-    text-align: center;
-    width: 50px;
-    margin: 15px;
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 14px;
-    font-weight: bolder;
-}
-
-nav ul li a {
-    text-decoration: none;
-}
-
-.activo{
-    background-color: #9477ab;
-}
-
-.activo a{
-    color: #cc9fa0;
-}
-
-.inactivo a{
+.navbar-brand{
     color: #4c4275;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-around;
 }
 
 /* BODY */
@@ -66,27 +47,8 @@ nav ul li a {
 
 /* FOOTER */
 
-.small1{
-    width: 350px;
-    background-color: #9477ab;
-}
-.small2{
-    width: 355px;
-    background-color: #9477ab;
-}
-.small3{
-    width: 360px;
-    background-color: #9477ab;
-}
-.small4{
-    width: 365px;
-    background-color: #9477ab;
-}
-.small5{
-    width: 370px;
-    background-color: #9477ab;
-}
-.small6{
-    width: 375px;
-    background-color: #9477ab;
+
+.hey {
+    height: 200vh;
+    background-color: #4c4275;
 }
