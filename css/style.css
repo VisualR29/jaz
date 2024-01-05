@@ -71,7 +71,7 @@
     text-align: center;
     border-radius: 25px;
     color: #F0E7E5;
-    font-size: 1.9em;
+    font-size: 1.7em;
     padding: 5px 8px 5px 8px;
     margin-top: 10vh;
     margin-left: 3vw;
@@ -88,15 +88,15 @@
 }
 
 .mesage{
-    font-size: 0.8em;
-    margin-top: 29vh;
+    font-size: 0.7em;
+    margin-top: 32vh;
     margin-left: 5vw;
     margin-right: 5vw;
 }
 
 .date{
-    font-size: 1em;
-    margin-top: 5vh;
+    font-size: .8em;
+    margin-top: 7vh;
     margin-left: 5vw;
     margin-right: 30vw;
 }
