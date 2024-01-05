@@ -11,6 +11,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 /*! HEADER */
@@ -112,6 +113,9 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
+    background-color: #3a3357;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 .gal-caja {
@@ -120,7 +124,7 @@
     align-items: center;
     width: 42vw;
     height: 63vw;
-    margin: 4vw;
+    margin: 1vw 4vw 1vw 4vw;
     border-radius: 8px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     background-color: #9C93B5;
@@ -186,12 +190,13 @@
 }
 
 .gal-caja2 {
+    grid-column: span 2;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 42vw;
+    width: 92vw;
     height: 63vw;
-    margin: 4vw;
+    margin: 1vw 4vw 1vw 4vw;
     border-radius: 8px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     background-color: #9C93B5;
@@ -205,7 +210,7 @@
 }
 
 .gal-carta2 {
-    width: 80%;
+    width: 90%;
     height: 80%;
     margin-bottom: 15px;
 }
