@@ -271,11 +271,12 @@
 /** PLAYLIST */
 
 .playlist {
-    background-color: #4c4275;
+    background-color: #3a3357;
     min-height: 100vh;
 }
 
 .playlist h2 {
+    background-color: #4c4275;
     color: #9C93B5;
     font-size: 28px;
     text-align: center;
@@ -287,9 +288,24 @@
     justify-content: center;
 }
 
-.playlist div iframe {
+.frame{
+    padding: 10px 40px 10px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.frame iframe {
     height: 65vh;
+    width: 100%;
     border-radius: 12px;
+}
+
+.frame p{
+    margin-top: 20px;
+    color: #9C93B5;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
 }
 
 /*! FOOTER */
